@@ -6,6 +6,7 @@ from mock import patch, call, Mock
 from jupyterlab_git.git import Git
 
 
+
 @patch('subprocess.Popen')
 def test_git_pull_fail(mock_subproc_popen):
     # Given
